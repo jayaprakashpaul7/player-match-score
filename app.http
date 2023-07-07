@@ -1,0 +1,26 @@
+GET http://localhost:3000/players/
+###
+
+GET  http://localhost:3000/players/8/
+###
+
+PUT  http://localhost:3000/players/4/
+Content-Type: application/json
+
+{
+  "playerName": "St.Paul"
+}
+###
+//api 4
+get http://localhost:3000/matches/17
+###
+GET http://localhost:3000/players/1/matches/
+###
+GET http://localhost:3000/matches/2/players
+###
+GET http://localhost:3000/players/2/playerScores
+###
+
+
+
+
